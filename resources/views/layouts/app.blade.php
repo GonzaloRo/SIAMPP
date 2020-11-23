@@ -11,7 +11,14 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
-
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.css">
+  
+        <!--datables CSS básico-->
+                        
+        <link href="{{ asset('datatables/datatables.min.css') }}" rel="stylesheet" type="text/css">
+        <link href="{{ asset('css/main.css') }}" rel="stylesheet">
+        <!--datables estilo bootstrap 4 CSS-->                        
+        <link href="{{ asset('datatables/DataTables-1.10.18/css/dataTables.bootstrap4.min.css') }}" rel="stylesheet" type="text/css">
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
@@ -77,4 +84,12 @@
         </main>
     </div>
 </body>
+
 </html>
+  <!-- jQuery, Popper.js, Bootstrap JS -->
+        
+  <script src="{{ asset('jquery/jquery-3.3.1.min.js') }}" defer></script> 
+        
+  <script src="{{ asset('datatables/datatables.min.js') }}" defer></script> 
+  <script src="{{ asset('js/main.js') }}" defer></script> 
+  
