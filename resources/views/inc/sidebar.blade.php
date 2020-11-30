@@ -55,6 +55,15 @@
             <li>
               <a href="#">Incidencias Asignadas Finalizadas </a>
             </li>
+            <li>
+              <a href="{{ route('reporteProC')}}">Proyectos publicitaros al año por cliente </a>
+            </li>
+            <li>
+              <a href="{{ route('reporteDise')}}">Diseños de proyectos publicitarios </a>
+            </li>
+            <li>
+              <a href="{{ route('reporteRed')}}">Publicaciones en redes sociales por proyecto poblicitario</a>
+            </li>
           </ul>
         </li>
       </ul>
