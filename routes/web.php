@@ -20,4 +20,6 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/reporteProC', 'ReportesController@index')->name('reporteProC');
+Route::get('/reporteProC', 'ReportesController@reportCliente')->name('reporteProC');
+Route::get('/reporteDise', 'ReportesController@reportDise')->name('reporteDise');
+Route::get('/reporteRed', 'ReportesController@reportRed')->name('reporteRed');

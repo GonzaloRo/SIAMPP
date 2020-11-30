@@ -88,8 +88,5 @@
 </html>
   <!-- jQuery, Popper.js, Bootstrap JS -->
         
-  <script src="{{ asset('jquery/jquery-3.3.1.min.js') }}" defer></script> 
-        
-  <script src="{{ asset('datatables/datatables.min.js') }}" defer></script> 
-  <script src="{{ asset('js/main.js') }}" defer></script> 
+
   

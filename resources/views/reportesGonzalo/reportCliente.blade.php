@@ -101,9 +101,9 @@
             <div class="row justify-content-center h-100">
               <div class="col-sm-10 align-self-center text-center">
                 <p id="date_filter">
-                  <span id="date-label-from" class="date-label">Desde: </span><input class="date_range_filter date"
+                  <span id="date-label-from" class="date-label">Fecha Inicio: </span><input class="date_range_filter date"
                       type="text" id="datepicker_from" />
-                  <span id="date-label-to" class="date-label">Hasta:<input class="date_range_filter date" type="text"
+                  <span id="date-label-to" class="date-label">Fecha Fin:<input class="date_range_filter date" type="text"
                           id="datepicker_to" />
                       <span class="date-label">Id del cliente:<input class="date_range_filter date" type="number" />
               </p>
@@ -114,6 +114,7 @@
                 <thead>
                     <tr>
                         <th>Id Usuario</th>
+                        <th> Nombre Cliente</th>
                         <th>Fecha</th>
                         <th>Proyecto</th>
                     </tr>
@@ -122,12 +123,18 @@
                     <tr>
                         <td>1</td>
                         <td>
-                            03/03/2016
+                            Juan
+                        </td>
+                        <td>
+                            03/01/2020
                         </td>
                         <td>5</td>
                     </tr>
                     <tr>
                         <td>1</td>
+                        <td>
+                            Juan
+                        </td>
                         <td>
                             03/04/2017
                         </td>
@@ -136,6 +143,9 @@
                     <tr>
                         <td>3</td>
                         <td>
+                            Maria
+                        </td>
+                        <td>
                             03/05/2017
                         </td>
                         <td>2</td>
@@ -143,17 +153,193 @@
                     <tr>
                         <td>1</td>
                         <td>
-                            03/06/2016
+                            Juan
+                        </td>
+                        <td>
+                            03/06/2020
                         </td>
                         <td>17</td>
                     </tr>
                     <tr>
                         <td>4</td>
                         <td>
+                            Jose
+                        </td>
+                        <td>
                             03/07/2017
                         </td>
                         <td>10</td>
                     </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            Juan
+                        </td>
+                        <td>
+                            03/09/2020
+                        </td>
+                        <td>17</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            Juan
+                        </td>
+                        <td>
+                            03/10/2020
+                        </td>
+                        <td>17</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            Juan
+                        </td>
+                        <td>
+                            03/11/2020
+                        </td>
+                        <td>17</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            Juan
+                        </td>
+                        <td>
+                            03/01/2020
+                        </td>
+                        <td>17</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            Juan
+                        </td>
+                        <td>
+                            03/12/2020
+                        </td>
+                        <td>17</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            Juan
+                        </td>
+                        <td>
+                            03/02/2020
+                        </td>
+                        <td>17</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            Juan
+                        </td>
+                        <td>
+                            03/06/2020
+                        </td>
+                        <td>17</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            Juan
+                        </td>
+                        <td>
+                            03/06/2019
+                        </td>
+                        <td>17</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            Juan
+                        </td>
+                        <td>
+                            03/06/2016
+                        </td>
+                        <td>17</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            Juan
+                        </td>
+                        <td>
+                            03/06/2016
+                        </td>
+                        <td>17</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            Juan
+                        </td>
+                        <td>
+                            03/06/2016
+                        </td>
+                        <td>17</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            Juan
+                        </td>
+                        <td>
+                            03/06/2016
+                        </td>
+                        <td>17</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            Juan
+                        </td>
+                        <td>
+                            03/06/2016
+                        </td>
+                        <td>17</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            Juan
+                        </td>
+                        <td>
+                            03/06/2016
+                        </td>
+                        <td>17</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            Juan
+                        </td>
+                        <td>
+                            03/06/2016
+                        </td>
+                        <td>17</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            Juan
+                        </td>
+                        <td>
+                            03/06/2016
+                        </td>
+                        <td>17</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            Juan
+                        </td>
+                        <td>
+                            03/06/2016
+                        </td>
+                        <td>17</td>
+                    </tr>                    
                 </tbody>
             </table>
         </div>
