@@ -3,48 +3,21 @@
       <a href="#" class="img logo rounded-circle mb-5" style="background-image: url(/images/logo.jpg);"></a>
      
       <ul class="list-unstyled components mb-5">
-        
-        <li class="active">
-          <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Incidencias</a>
-          <ul class="collapse list-unstyled" id="homeSubmenu">
-          
-            <li>
-              <a class="nav-link" href="#">Asignar Incidencias</a>
-            </li>
-           
-            <li>
-              <a class="nav-link" href="#">Incidencias Asignadas</a>
-            </li>
-            <li>
-              <a href="#">Incidencias Rechazadas</a>
-            </li>
-            <li>
-              <a href="#">Incidencias Finalizadas</a>
-            </li>
-            
-            <li>
-              <a class="nav-link" href="#">Aprobar Incidencias</a>
-            </li>
-            <li>
-              <a class="nav-link" href="#">Incidencias no Aprobadas</a>
-            </li>
-          </ul>
-        </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Roles</a>
+          <a class="nav-link" href="#">Home</a>
         </li>
         <li>
-          <a href="#">Departamentos</a>
+          <a href="#">Gestionar Usuarios</a>
         </li>
         <li>
-          <a href="#">Usuarios</a>
+          <a href="#">Clientes/Marcas</a>
         </li>
        
         <li>
-          <a href="#">Equipos</a>
+          <a href="#">Proyectos/Publicaciones</a>
         </li>
         <li class="active">
-          <a href="#homeSubmenu2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Reportes</a>
+          <a href="#homeSubmenu2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Generar Reporte</a>
           <ul class="collapse list-unstyled" id="homeSubmenu2">
             <li>
               <a class="nav-link" href="#">Incidencias Asignadas En Espera </a>

@@ -1,0 +1,32 @@
+.title-page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.publicacion{
+    margin-bottom: 40px;
+}
+.text-aprobada{
+    margin: 10px auto;
+}
+.fa-thumbs-up, .fa-thumbs-down{
+    font-size: 40px;
+}
+.fa-thumbs-up{
+    color: green;
+}
+.fa-thumbs-down{
+    color: red;
+}
+.fa-calendar{
+    font-size: 20px;
+    color: black;
+}
+.red-social{
+    font-size: 30px;
+    margin: 0px 10px 10px 0px;
+    color: black;
+}
+.text-observacion{
+    width: 100%;
+}

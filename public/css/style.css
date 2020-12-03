@@ -8296,3 +8296,15 @@ a[data-toggle="collapse"] {
 
 .footer p {
   color: rgba(255, 255, 255, 0.5); }
+
+nav#sidebar {
+  height: 100% !important;
+}
+.img-circulo{
+    height: auto;
+    max-width: 220px!important;
+}
+.marca-cont{
+  padding: 30px !important;
+  text-align: center;
+}

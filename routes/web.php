@@ -21,3 +21,8 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/reporteProC', 'ReportesController@index')->name('reporteProC');
+
+/** Gestionar Publicidades */
+
+Route::get('/publicidades', 'PublicidadesController@index')->name('publicidades.index');
+Route::get('/add_publicidad', 'PublicidadesController@create')->name('publicidades.create');
