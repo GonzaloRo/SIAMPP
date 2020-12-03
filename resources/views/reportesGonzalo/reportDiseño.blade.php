@@ -26,7 +26,7 @@ data-require="datatables@*"></script>
             <div class="row justify-content-center h-100">
                 <div class="col-sm-8 align-self-center text-center">
                     <P>Fabrica DBM </P>
-                    <p>Reporte de diseños de prouectos publicitarios</p>
+                    <p>Reporte de diseños de proyectos publicitarios</p>
                 </div>
             </div>
 
@@ -134,5 +134,16 @@ data-require="datatables@*"></script>
                     </tr>                       
                 </tbody>
             </table>
+            
+            <div class="row justify-content-center">
+                <div class="col-md-3">
+                   
+                        <div class="card-body">
+                            <a href="{{ asset('reportes/Reporte de diseños de proyectos publicitarios.xlsx') }}" download="Reporte de diseños de proyectos publicitarios.xlsx">
+                                <button type="button" class="btn btn-primary">Descargar reporte</button>
+                                </a>
+                        </div>
+               
+            </div>
         </div>
         @endsection

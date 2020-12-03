@@ -275,5 +275,18 @@ data-require="datatables@*"></script>
                     </tr>                    
                 </tbody>
             </table>
+            
+          
+            <div class="row justify-content-center">
+                <div class="col-md-3">
+                   
+                        <div class="card-body">
+                            <a href="{{ asset('reportes/reporte proyectos por cliente.xlsx') }}" download="Reporte proyectos por cliente.xlsx">
+                                <button type="button" class="btn btn-primary">Descargar reporte</button>
+                                </a>
+                        </div>
+               
+            </div>
+         
         </div>
         @endsection
